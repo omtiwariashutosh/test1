@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Optimized Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="contact-info">
+            <span><i class="fa fa-phone"></i> +1 234 567 7890</span>
+            <span><i class="fa fa-envelope"></i> xyz@example.com</span>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Test</a>
+            <button class="menu-toggle">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#!">About</a></li>
+                <li><a href="#!">Blog</a></li>
+                <li><a href="#!">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Slider Section -->
+    <div class="home-area">
+
+        <div class="home-bg">
+            <div class="item"><img src="assets/img/homebg.jpg" alt="GTA V">
+            </div>
+        </div>
+
+        <div class="home-content">
+            <div class="home-text">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <form class="search-form">
+                <select class="selectpicker">
+                    <option>Key Word</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                </select>
+                <select class="selectpicker">
+                    <option>Select Your City</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                    <option>ABCD</option>
+                </select>
+                <select class="selectpicker">
+                    <option>Status</option>
+                    <option>XYZQ</option>
+                    <option>XYZQ</option>
+                    <option>XYZQ</option>
+                    <option>XYZQ</option>
+                </select>
+                <button class="btn search-btn" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="content-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1 col-sm-12 text-center page-title">
+                    <h2>Top Submitted Properties</h2>
+                    <p>Explore our latest properties with premium features and prime locations.</p>
+                </div>
+                <!-- Show More Properties -->
+                <div class="property-item more-properties text-center">
+                    <div class="more-icon">
+                        <i class="fa fa-th"></i>
+                    </div>
+                    <div class="more-details">
+                        <h5><a href="#">Can't Decide?</a></h5>
+                        <h6>Show all properties</h6>
+                        <button class="view-all-btn">All Properties</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="property-grid">
+                    <!-- Property Item -->
+                    <div class="property-item">
+                        <div class="property-thumb">
+                            <a href="#"><img src="assets/img/property.jpg" alt="Property Image"></a>
+                        </div>
+                        <div class="property-details">
+                            <h5><a href="#">Super Nice Villa</a></h5>
+                            <div class="separator"></div>
+                            <span class="property-area"><b>Area:</b> 120m²</span>
+                            <span class="property-price">$300,000</span>
+                        </div>
+
+                    </div>
+                    <div class="property-item">
+                        <div class="property-thumb">
+                            <a href="#"><img src="assets/img/property.jpg" alt="Property Image"></a>
+                        </div>
+                        <div class="property-details">
+                            <h5><a href="#">Super Nice Villa</a></h5>
+                            <div class="separator"></div>
+                            <span class="property-area"><b>Area:</b> 120m²</span>
+                            <span class="property-price">$300,000</span>
+                        </div>
+                    </div>
+                    <div class="property-item">
+                        <div class="property-thumb">
+                            <a href="#"><img src="assets/img/property.jpg" alt="Property Image"></a>
+                        </div>
+                        <div class="property-details">
+                            <h5><a href="#">Super Nice Villa</a></h5>
+                            <div class="separator"></div>
+                            <span class="property-area"><b>Area:</b> 120m²</span>
+                            <span class="property-price">$300,000</span>
+                        </div>
+                    </div>
+                    <div class="property-item">
+                        <div class="property-thumb">
+                            <a href="#"><img src="assets/img/property.jpg" alt="Property Image"></a>
+                        </div>
+                        <div class="property-details">
+                            <h5><a href="#">Super Nice Villa</a></h5>
+                            <div class="separator"></div>
+                            <span class="property-area"><b>Area:</b> 120m²</span>
+                            <span class="property-price">$300,000</span>
+                        </div>
+                    </div>
+                    <div class="property-item">
+                        <div class="property-thumb">
+                            <a href="#"><img src="assets/img/property.jpg" alt="Property Image"></a>
+                        </div>
+                        <div class="property-details">
+                            <h5><a href="#">Super Nice Villa</a></h5>
+                            <div class="separator"></div>
+                            <span class="property-area"><b>Area:</b> 120m²</span>
+                            <span class="property-price">$300,000</span>
+                        </div>
+                    </div>
+                    <div class="property-item">
+                        <div class="property-thumb">
+                            <a href="#"><img src="assets/img/property.jpg" alt="Property Image"></a>
+                        </div>
+                        <div class="property-details">
+                            <h5><a href="#">Super Nice Villa</a></h5>
+                            <div class="separator"></div>
+                            <span class="property-area"><b>Area:</b> 120m²</span>
+                            <span class="property-price">$300,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome-area">
+        <div class="welcome-text ">
+            <h2>Welcome to Our Platform</h2>
+            <p>Discover properties, connect with clients, and enjoy an easy-to-use system.</p>
+        </div>
+
+        <div class="welcome-services">
+            <div class="col-xs-6">
+                <div class="welcome-item">
+                    <i class="fa fa-home"></i>
+                    <h3>Any Property</h3>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="welcome-item">
+                    <i class="fa fa-users"></i>
+                    <h3>More Clients</h3>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="welcome-item">
+                    <i class="fa fa-book"></i>
+                    <h3>Easy to Use</h3>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="welcome-item">
+                    <i class="fa fa-hands-helping"></i>
+                    <h3>Any Help</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="count-area">
+        <h2>You Can Trust Us</h2>
+        <div class="container">
+            <div class="counter-grid">
+
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <h2 class="counter" data-target="1000">0</h2>
+                    <h5>Happy Customers</h5>
+                </div>
+
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <h2 class="counter" data-target="500">0</h2>
+                    <h5>Properties in Stock</h5>
+                </div>
+
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="fa fa-map-marker-alt"></i>
+                    </div>
+                    <h2 class="counter" data-target="120">0</h2>
+                    <h5>City Registered</h5>
+                </div>
+
+                <div class="count-item">
+                    <div class="count-icon">
+                        <i class="fa fa-building"></i>
+                    </div>
+                    <h2 class="counter" data-target="5000">0</h2>
+                    <h5>Dealer Branches</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sale-area">
+        <div class="sale-container">
+
+            <div class="col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                <div class="asks-box">
+                    <div class="asks-icon"><i class="fa fa-search"></i></div>
+                    <div class="asks-info">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                <div class="asks-box">
+                    <div class="asks-icon"><i class="fa fa-usd"></i></div>
+                    <div class="asks-info">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <p class="asks-call">QUESTIONS? CALL US: <span class="strong">+123 123 123 1234</span></p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="col-md-3">
+                <div class="single-footer">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <ul class="footer-address">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Street, City</li>
+                        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+                        <li><i class="fas fa-phone-alt"></i> +123 456 7890</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="single-footer">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="single-footer">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-md-3">
+                <div class="single-footer">
+                    <h4>Stay in Touch</h4>
+                    <p>Subscribe to our newsletter.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary subscribe" type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy text-center">
+            <p>© 2024 <a href="#">YourCompany</a>. All rights reserved.</p>
+            <ul class="bottom-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Property</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
